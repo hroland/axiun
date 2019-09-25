@@ -2,7 +2,7 @@
 
 	include('page.html');
 
-	$analytics_url = 'https://analytics-api.rolandhorvath.hu/v1/track/@hroland/axiun';
+	$analytics_url = 'https://analytics-api.rolandhorvath.hu/v1/track/@roland/axiun';
 
 	$analytics_url .= '?showIP=true&showUA=true';
 	$ch = curl_init($analytics_url);
